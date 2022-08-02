@@ -7,7 +7,7 @@ Quiz.destroy_all
 User.destroy_all
 
 first_quiz = Quiz.create!(title: "Types per generation!", theme: "type")
-random_user = User.create!(email: "arrvac@yopmail.com", password: "password")
+random_user = User.create!(email: "arrvac@yopmail.com", username: "Mimoza", password: "password")
 Question.create!(prompt: "fire", index:1 ,answer: "generation-i", quizz_id: first_quiz.id)
 Question.create!(prompt: "fairy", index:2 ,answer: "generation-vi", quizz_id: first_quiz.id)
 Question.create!(prompt: "steel", index:3 ,answer: "generation-ii", quizz_id: first_quiz.id)

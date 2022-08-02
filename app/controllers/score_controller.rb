@@ -12,7 +12,7 @@ class ScoreController < ApplicationController
     result = Score.all.map { |score| {
       "id"=> score.id,
       "passed"=>score.passed,
-      "user" => User.find(score.user_id).email, #TODO : add username and change there.
+      "user" => User.find(score.user_id).username, #TODO : add username and change there.
       "quiz" => Quiz.find(score.quizz_id).title,
       "grade"=>score.grade
     }}
@@ -23,7 +23,7 @@ class ScoreController < ApplicationController
     result = Score.where(user: current_user).map { |score| {
       "id" => score.id,
       "passed"=>score.passed,
-      "user" => current_user.email, #TODO : add username and change there.
+      "user" => current_user.username,
       "quiz" => Quiz.find(score.quizz_id).title,
       "grade"=>score.grade
     }}

@@ -8,9 +8,9 @@
   - The quizzes can have any shape as you want or imagine (What is this Pokemon ?, What is the type of this Pokemon ?, etc.)
 
 ### User
-- [X] A user can log in with a valid username and password through a login screen X the email is used, not an username
+- [X] A user can log in with a valid username and password through a login screen
 
-- [X] A user can see a collection of quizzes. There is only one but if there were more, it would have worked.
+- [X] A user can see a collection of quizzes. There is only two.
 
 - [X] A user can start a quiz
 
