@@ -1,7 +1,6 @@
 <%= form_for :answer do |f| %>
 <div class="list-group w-auto container m-auto">
-  <h3 class="text-center my-4 "> <%= "In what generation did the \"#{@question}\" #{@theme} first appeared?" %></h3>
-  <%= f.radio_button :score, @score, checked: true, style: "display: none" %>
+  <h3 class="text-center my-4 "> <%= "Question #{@question_index}/5 : In what generation did the #{@theme} \"#{@question}\" first appeared?" %></h3>
   <div class="row">
       <% @array.each do |key| %>
       <div class="col-6 my-3">

@@ -1,12 +1,8 @@
-## Guidelines
-- Fork this repository.
-- You can add any framework, library or plugin you'd like.
-- Make sure the application works out-of-the box once you're done.
-- Push changes to your git fork.
-- Add a short description on how to run your program for anyone who would like to test it.
-- Check the finished features in the Assignment and Bonus section by putting an 'X' ([X]) in between the brackets.
-- Quality over quantity, better half of the features 100% done, than 100% of the features half-done.
+## How to run this project ? 
 
+  - Make sure that your ruby version is 3.1.2 . If you have rvm, you can use rvm use.
+  - Simply run the bash script provided. 
+  - If you cannot run a bash script, go on Linux / MacOS or try out a new os on distrotest.net !  
 ## Assignment :
   - You are asked to build a simple Quiz App around the Pokemon universe using the [PokeApi](https://pokeapi.co/).
   - The quizzes can have any shape as you want or imagine (What is this Pokemon ?, What is the type of this Pokemon ?, etc.)

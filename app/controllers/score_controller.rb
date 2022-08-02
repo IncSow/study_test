@@ -16,7 +16,7 @@ class ScoreController < ApplicationController
       "quiz" => Quiz.find(score.quizz_id).title,
       "grade"=>score.grade
     }}
-    return result.sort_by! { |result| result["grade"] }.reverse!
+    result.sort_by! { |result| result["grade"] }.reverse!
   end
 
   def get_user_results
@@ -27,7 +27,7 @@ class ScoreController < ApplicationController
       "quiz" => Quiz.find(score.quizz_id).title,
       "grade"=>score.grade
     }}
-    return result.sort_by! { |result| result["id"] }.reverse!
+    result.sort_by! { |result| result["id"] }.reverse!
   end
 
   def grade_user
@@ -36,8 +36,8 @@ class ScoreController < ApplicationController
     current_score = 0 unless current_score < 6 #Don't cheat!
     has_passed = current_score >= 3
     Score.create!(user: current_user, grade: current_score, quizz_id: current_quiz.id, passed: has_passed, score: current_score)
-    redirect_to "/score/user"
     session[:tmp_score] = nil
+    redirect_to "/score/user"
   end
 
 end
