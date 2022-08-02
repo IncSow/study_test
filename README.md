@@ -12,28 +12,28 @@
   - The quizzes can have any shape as you want or imagine (What is this Pokemon ?, What is the type of this Pokemon ?, etc.)
 
 ### User
-- [ ] A user can log in with a valid username and password through a login screen
+- [X] A user can log in with a valid username and password through a login screen X the email is used, not an username
 
-- [ ] A user can see a collection of quizzes
+- [X] A user can see a collection of quizzes. There is only one but if there were more, it would have worked.
 
-- [ ] A user can start a quiz
+- [X] A user can start a quiz
 
-- [ ] A user can answer 5 questions on a quiz
+- [X] A user can answer 5 questions on a quiz
 
-- [ ] A user can see the scores of his quizzes
+- [X] A user can see the scores of his quizzes
 
 
 ### Quizz
-- [ ] A quizz has a Title
+- [X] A quizz has a Title
 
-- [ ] A quizz has a maximum of 5 questions
+- [X] A quizz has a maximum of 5 questions
 
-- [ ] A quizz is considered passed if +60% of questions are answered correctly
+- [X] A quizz is considered passed if +60% of questions are answered correctly
 
 ### Question
-- [ ] A question has a maximum of 4 answers
+- [X] A question has a maximum of 4 answers
 
-- [ ] A question has only 1 possible correct answer
+- [X] A question has only 1 possible correct answer
 
 
 ## Bonus
@@ -47,4 +47,4 @@
 
 - [ ] A user can come back to a started quizz at the question he stopped
 
-- [ ] Add or improve a feature of your own choice
+- [X] Add or improve a feature of your own choice : The user can see how many time the quizz has been played, and how many he played it.

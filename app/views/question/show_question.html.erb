@@ -1,6 +1,17 @@
-
-<% @array.each do |key, value| %>
-  <div>
-    <h2><%= "#{value} with key #{key}" %></h2>
+<%= form_for :answer do |f| %>
+<div class="list-group w-auto container m-auto">
+  <h3 class="text-center my-4 "> <%= "In what generation did the \"#{@question}\" #{@theme} first appeared?" %></h3>
+  <%= f.radio_button :score, @score, checked: true, style: "display: none" %>
+  <div class="row">
+      <% @array.each do |key| %>
+      <div class="col-6 my-3">
+          <label class="list-group-item gap-5 d-flex">
+            <%= f.radio_button :answer, key%>
+            <span><%= "#{key}" %></span>
+          </label>
+        </div>
+      <% end %>
+      <%= submit_tag "Submit my answer", class:"btn btn-primary" %>
+    <% end %>
   </div>
-<% end %>
+</div>

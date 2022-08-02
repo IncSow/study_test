@@ -1,0 +1,33 @@
+W, [2022-08-02T15:54:58.972192 #28310]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2022-08-02T15:55:03.099177 #28310]  INFO -- : [89388819-23f5-4006-8ac1-3ff65b85f9c9] Started GET "/score/all/sad" for 127.0.0.1 at 2022-08-02 15:55:03 +0200
+F, [2022-08-02T15:55:03.099839 #28310] FATAL -- : [89388819-23f5-4006-8ac1-3ff65b85f9c9]   
+[89388819-23f5-4006-8ac1-3ff65b85f9c9] ActionController::RoutingError (No route matches [GET] "/score/all/sad"):
+[89388819-23f5-4006-8ac1-3ff65b85f9c9]   
+I, [2022-08-02T15:55:05.560614 #28310]  INFO -- : [2f3b6f28-3f6b-4f6d-949e-2480f7141f97] Started GET "/score/all/sad" for 127.0.0.1 at 2022-08-02 15:55:05 +0200
+F, [2022-08-02T15:55:05.561363 #28310] FATAL -- : [2f3b6f28-3f6b-4f6d-949e-2480f7141f97]   
+[2f3b6f28-3f6b-4f6d-949e-2480f7141f97] ActionController::RoutingError (No route matches [GET] "/score/all/sad"):
+[2f3b6f28-3f6b-4f6d-949e-2480f7141f97]   
+I, [2022-08-02T15:55:06.379956 #28310]  INFO -- : [5116f730-5af1-4aaa-a73a-e34b9d10dbb2] Started GET "/score/all/sad" for 127.0.0.1 at 2022-08-02 15:55:06 +0200
+F, [2022-08-02T15:55:06.380581 #28310] FATAL -- : [5116f730-5af1-4aaa-a73a-e34b9d10dbb2]   
+[5116f730-5af1-4aaa-a73a-e34b9d10dbb2] ActionController::RoutingError (No route matches [GET] "/score/all/sad"):
+[5116f730-5af1-4aaa-a73a-e34b9d10dbb2]   
+I, [2022-08-02T15:55:35.103745 #28310]  INFO -- : [1c5b7d40-8c36-4ff1-a721-eb0d11cab35d] Started GET "/score/all/sad" for 127.0.0.1 at 2022-08-02 15:55:35 +0200
+F, [2022-08-02T15:55:35.104470 #28310] FATAL -- : [1c5b7d40-8c36-4ff1-a721-eb0d11cab35d]   
+[1c5b7d40-8c36-4ff1-a721-eb0d11cab35d] ActionController::RoutingError (No route matches [GET] "/score/all/sad"):
+[1c5b7d40-8c36-4ff1-a721-eb0d11cab35d]   
+I, [2022-08-02T15:56:02.273423 #28310]  INFO -- : [93a85606-305f-40f5-bb51-51da9c60febc] Started GET "/score/all/sad" for 127.0.0.1 at 2022-08-02 15:56:02 +0200
+F, [2022-08-02T15:56:02.273942 #28310] FATAL -- : [93a85606-305f-40f5-bb51-51da9c60febc]   
+[93a85606-305f-40f5-bb51-51da9c60febc] ActionController::RoutingError (No route matches [GET] "/score/all/sad"):
+[93a85606-305f-40f5-bb51-51da9c60febc]   
+I, [2022-08-02T15:56:04.322896 #28310]  INFO -- : [e71880a0-250a-43d6-8b23-7333cca664cb] Started GET "/score/all/sad" for 127.0.0.1 at 2022-08-02 15:56:04 +0200
+F, [2022-08-02T15:56:04.323569 #28310] FATAL -- : [e71880a0-250a-43d6-8b23-7333cca664cb]   
+[e71880a0-250a-43d6-8b23-7333cca664cb] ActionController::RoutingError (No route matches [GET] "/score/all/sad"):
+[e71880a0-250a-43d6-8b23-7333cca664cb]   
+I, [2022-08-02T15:57:25.487340 #28310]  INFO -- : [482c1518-5b8d-4ebb-9fa6-9b278962c41a] Started GET "/score/all/sad" for 127.0.0.1 at 2022-08-02 15:57:25 +0200
+F, [2022-08-02T15:57:25.488247 #28310] FATAL -- : [482c1518-5b8d-4ebb-9fa6-9b278962c41a]   
+[482c1518-5b8d-4ebb-9fa6-9b278962c41a] ActionController::RoutingError (No route matches [GET] "/score/all/sad"):
+[482c1518-5b8d-4ebb-9fa6-9b278962c41a]   
+I, [2022-08-02T15:57:30.656481 #28310]  INFO -- : [090a2331-ab6e-4214-9f57-3d19353bde15] Started GET "/score/all/sad" for 127.0.0.1 at 2022-08-02 15:57:30 +0200
+F, [2022-08-02T15:57:30.657258 #28310] FATAL -- : [090a2331-ab6e-4214-9f57-3d19353bde15]   
+[090a2331-ab6e-4214-9f57-3d19353bde15] ActionController::RoutingError (No route matches [GET] "/score/all/sad"):
+[090a2331-ab6e-4214-9f57-3d19353bde15]   

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_08_02_094814) do
+ActiveRecord::Schema[7.0].define(version: 2022_08_02_140434) do
   create_table "questions", force: :cascade do |t|
     t.string "prompt"
     t.string "answer"
@@ -32,6 +32,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_08_02_094814) do
     t.integer "user_id"
     t.integer "score"
     t.boolean "passed"
+    t.integer "grade"
   end
 
   create_table "users", force: :cascade do |t|

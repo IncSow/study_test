@@ -1,0 +1,16 @@
+
+<% if @results.length != 0 %>
+<div class="list-group w-75 gap-3 m-auto">
+  <% @results.each do | result | %>
+      <div class="d-flex gap-2 p-3 w-100 justify-content-between border <%= result["passed"] ? "border-success" : "border-danger"%>">
+        <div>
+          <h6 class="mb-0"><%= result["user"] %></h6>
+          <p class="mb-0 opacity-75"><%= result["quiz"] %></p>
+        </div>
+        <small class="opacity-50 text-nowrap"><%= "#{result["grade"]}/5" %></small>
+      </div>
+  <% end %>
+</div>
+<% else %>
+<h2 class="text-align"> You've never played any quizzes! Play one first!</h2>
+<%end %>
