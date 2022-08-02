@@ -16047,3 +16047,432 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.5ms | Allocations: 2369)
 
 
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuestion Destroy (0.2ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = ?[0m  [["id", 1]]
+  [1m[36mTRANSACTION (44.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuestion Destroy (0.2ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = ?[0m  [["id", 2]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuestion Destroy (0.1ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = ?[0m  [["id", 3]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuestion Destroy (0.2ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = ?[0m  [["id", 4]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuestion Destroy (0.3ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = ?[0m  [["id", 5]]
+  [1m[36mTRANSACTION (8.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mScore Load (0.2ms)[0m  [1m[34mSELECT "scores".* FROM "scores"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScore Destroy (0.2ms)[0m  [1m[31mDELETE FROM "scores" WHERE "scores"."id" = ?[0m  [["id", 1]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScore Destroy (0.1ms)[0m  [1m[31mDELETE FROM "scores" WHERE "scores"."id" = ?[0m  [["id", 2]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScore Destroy (0.1ms)[0m  [1m[31mDELETE FROM "scores" WHERE "scores"."id" = ?[0m  [["id", 3]]
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScore Destroy (0.1ms)[0m  [1m[31mDELETE FROM "scores" WHERE "scores"."id" = ?[0m  [["id", 4]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScore Destroy (0.2ms)[0m  [1m[31mDELETE FROM "scores" WHERE "scores"."id" = ?[0m  [["id", 5]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScore Destroy (0.3ms)[0m  [1m[31mDELETE FROM "scores" WHERE "scores"."id" = ?[0m  [["id", 6]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScore Destroy (0.1ms)[0m  [1m[31mDELETE FROM "scores" WHERE "scores"."id" = ?[0m  [["id", 7]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScore Destroy (0.1ms)[0m  [1m[31mDELETE FROM "scores" WHERE "scores"."id" = ?[0m  [["id", 8]]
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScore Destroy (0.2ms)[0m  [1m[31mDELETE FROM "scores" WHERE "scores"."id" = ?[0m  [["id", 9]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuiz Destroy (0.2ms)[0m  [1m[31mDELETE FROM "quizzes" WHERE "quizzes"."id" = ?[0m  [["id", 29]]
+  [1m[36mTRANSACTION (5.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 6]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 9]]
+  [1m[36mTRANSACTION (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuiz Create (0.2ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "theme", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Types per generation!"], ["theme", "type"], ["created_at", "2022-08-02 20:24:34.042158"], ["updated_at", "2022-08-02 20:24:34.042158"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "arrvac@yopmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["email", "arrvac@yopmail.com"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2022-08-02 20:24:34.301838"], ["updated_at", "2022-08-02 20:24:34.301838"]]
+  [1m[36mTRANSACTION (5.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuestion Create (0.1ms)[0m  [1m[32mINSERT INTO "questions" ("prompt", "answer", "created_at", "updated_at", "quizz_id", "index") VALUES (?, ?, ?, ?, ?, ?)[0m  [["prompt", "fire"], ["answer", "generation-i"], ["created_at", "2022-08-02 20:24:34.309602"], ["updated_at", "2022-08-02 20:24:34.309602"], ["quizz_id", 30], ["index", 1]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuestion Create (0.1ms)[0m  [1m[32mINSERT INTO "questions" ("prompt", "answer", "created_at", "updated_at", "quizz_id", "index") VALUES (?, ?, ?, ?, ?, ?)[0m  [["prompt", "fairy"], ["answer", "generation-vi"], ["created_at", "2022-08-02 20:24:34.312880"], ["updated_at", "2022-08-02 20:24:34.312880"], ["quizz_id", 30], ["index", 2]]
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuestion Create (0.1ms)[0m  [1m[32mINSERT INTO "questions" ("prompt", "answer", "created_at", "updated_at", "quizz_id", "index") VALUES (?, ?, ?, ?, ?, ?)[0m  [["prompt", "steel"], ["answer", "generation-ii"], ["created_at", "2022-08-02 20:24:34.318490"], ["updated_at", "2022-08-02 20:24:34.318490"], ["quizz_id", 30], ["index", 3]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuestion Create (0.1ms)[0m  [1m[32mINSERT INTO "questions" ("prompt", "answer", "created_at", "updated_at", "quizz_id", "index") VALUES (?, ?, ?, ?, ?, ?)[0m  [["prompt", "shadow"], ["answer", "generation-iii"], ["created_at", "2022-08-02 20:24:34.322579"], ["updated_at", "2022-08-02 20:24:34.322579"], ["quizz_id", 30], ["index", 4]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mQuestion Create (0.1ms)[0m  [1m[32mINSERT INTO "questions" ("prompt", "answer", "created_at", "updated_at", "quizz_id", "index") VALUES (?, ?, ?, ?, ?, ?)[0m  [["prompt", "dark"], ["answer", "generation-iii"], ["created_at", "2022-08-02 20:24:34.326778"], ["updated_at", "2022-08-02 20:24:34.326778"], ["quizz_id", 30], ["index", 5]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mScore Create (0.1ms)[0m  [1m[32mINSERT INTO "scores" ("quizz_id", "user_id", "score", "passed", "grade") VALUES (?, ?, ?, ?, ?)[0m  [["quizz_id", 30], ["user_id", 10], ["score", nil], ["passed", 1], ["grade", 5]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mScore Create (0.1ms)[0m  [1m[32mINSERT INTO "scores" ("quizz_id", "user_id", "score", "passed", "grade") VALUES (?, ?, ?, ?, ?)[0m  [["quizz_id", 30], ["user_id", 10], ["score", nil], ["passed", 0], ["grade", 2]]
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-08-02 22:27:00 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 471)
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 382)
+  Rendered layout layouts/application.html.erb (Duration: 59.6ms | Allocations: 23125)
+Completed 200 OK in 80ms (Views: 66.8ms | ActiveRecord: 0.0ms | Allocations: 27794)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2022-08-02 22:27:03 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 268)
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 666)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 25.4ms | Allocations: 7713)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 27.5ms | Allocations: 9044)
+Completed 200 OK in 39ms (Views: 32.3ms | ActiveRecord: 0.5ms | Allocations: 15144)
+
+
+Started GET "/score/all" for 127.0.0.1 at 2022-08-02 22:27:04 +0200
+Processing by ScoreController#show_all as HTML
+  [1m[36mScore Load (14.0ms)[0m  [1m[34mSELECT "scores".* FROM "scores"[0m
+  ↳ app/controllers/score_controller.rb:12:in `map'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/score_controller.rb:15:in `block in get_all_results'
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/score_controller.rb:16:in `block in get_all_results'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/score_controller.rb:15:in `block in get_all_results'
+  [1m[36mCACHE Quiz Load (0.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/score_controller.rb:16:in `block in get_all_results'
+  Rendering layout layouts/application.html.erb
+  Rendering score/show_all.html.erb within layouts/application
+  Rendered score/show_all.html.erb within layouts/application (Duration: 1.0ms | Allocations: 301)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1947)
+Completed 200 OK in 41ms (Views: 5.1ms | ActiveRecord: 15.1ms | Allocations: 15296)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2022-08-02 22:27:06 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 22)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 97)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1377)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2520)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3102)
+
+
+Started POST "/users" for 127.0.0.1 at 2022-08-02 22:27:28 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"rick@ouioui-online.fr", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rick@ouioui-online.fr"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["email", "rick@ouioui-online.fr"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2022-08-02 20:27:28.374517"], ["updated_at", "2022-08-02 20:27:28.374517"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 227ms (ActiveRecord: 2.6ms | Allocations: 10064)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-02 22:27:28 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/views/shared/_navbar.html.erb:13
+  Rendered shared/_navbar.html.erb (Duration: 3.1ms | Allocations: 1082)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2560)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.3ms | Allocations: 2870)
+
+
+Started GET "/score/all" for 127.0.0.1 at 2022-08-02 22:27:31 +0200
+Processing by ScoreController#show_all as HTML
+  [1m[36mScore Load (0.1ms)[0m  [1m[34mSELECT "scores".* FROM "scores"[0m
+  ↳ app/controllers/score_controller.rb:12:in `map'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/score_controller.rb:15:in `block in get_all_results'
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/score_controller.rb:16:in `block in get_all_results'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/score_controller.rb:15:in `block in get_all_results'
+  [1m[36mCACHE Quiz Load (0.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/score_controller.rb:16:in `block in get_all_results'
+  Rendering layout layouts/application.html.erb
+  Rendering score/show_all.html.erb within layouts/application
+  Rendered score/show_all.html.erb within layouts/application (Duration: 0.1ms | Allocations: 30)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/views/shared/_navbar.html.erb:13
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 785)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2072)
+Completed 200 OK in 6ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 4704)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-08-02 22:27:32 +0200
+Processing by QuizController#list as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `forbid_guest'
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/quiz_controller.rb:14:in `map'
+  [1m[36mScore Load (0.1ms)[0m  [1m[34mSELECT "scores".* FROM "scores" WHERE "scores"."quizz_id" = ?[0m  [["quizz_id", 30]]
+  ↳ app/controllers/quiz_controller.rb:14:in `block in get_all_quizzes'
+  Rendering layout layouts/application.html.erb
+  Rendering quiz/list.html.erb within layouts/application
+  Rendered quiz/list.html.erb within layouts/application (Duration: 0.9ms | Allocations: 303)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1635)
+Completed 200 OK in 12ms (Views: 7.6ms | ActiveRecord: 0.3ms | Allocations: 4779)
+
+
+Started GET "/quizz/30" for 127.0.0.1 at 2022-08-02 22:27:33 +0200
+Processing by QuizController#intro as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `forbid_guest'
+  [1m[36mScore Load (0.1ms)[0m  [1m[34mSELECT "scores".* FROM "scores" WHERE "scores"."quizz_id" = ? AND "scores"."user_id" = ?[0m  [["quizz_id", 30], ["user_id", 11]]
+  ↳ app/controllers/quiz_controller.rb:9:in `intro'
+  Rendering layout layouts/application.html.erb
+  Rendering quiz/intro.html.erb within layouts/application
+  Rendered quiz/intro.html.erb within layouts/application (Duration: 0.6ms | Allocations: 221)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1327)
+Completed 200 OK in 7ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 3362)
+
+
+Started GET "/quizz/30/1" for 127.0.0.1 at 2022-08-02 22:27:34 +0200
+Processing by QuestionController#show_question as HTML
+  Parameters: {"id"=>"30", "index"=>"1"}
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 1], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+  [1m[36mCACHE Quiz Load (0.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mCACHE Question Load (0.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 1], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+  [1m[36mCACHE Quiz Load (0.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering question/show_question.html.erb within layouts/application
+  Rendered question/show_question.html.erb within layouts/application (Duration: 4.9ms | Allocations: 2034)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/views/shared/_navbar.html.erb:13
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 947)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 4256)
+Completed 200 OK in 27ms (Views: 13.9ms | ActiveRecord: 1.0ms | Allocations: 11778)
+
+
+Started POST "/quizz/30/1" for 127.0.0.1 at 2022-08-02 22:27:39 +0200
+Processing by QuestionController#evaluate_answer as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "answer"=>{"score"=>"on", "answer"=>"generation-i"}, "commit"=>"Submit my answer", "id"=>"30", "index"=>"1"}
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 1], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+Redirected to http://localhost:3000/quizz/30/2
+Completed 302 Found in 11ms (ActiveRecord: 0.7ms | Allocations: 1397)
+
+
+Started GET "/quizz/30/2" for 127.0.0.1 at 2022-08-02 22:27:39 +0200
+Processing by QuestionController#show_question as HTML
+  Parameters: {"id"=>"30", "index"=>"2"}
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mQuestion Load (3.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 2], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+  [1m[36mCACHE Quiz Load (0.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mCACHE Question Load (0.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 2], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+  [1m[36mCACHE Quiz Load (0.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering question/show_question.html.erb within layouts/application
+  Rendered question/show_question.html.erb within layouts/application (Duration: 2.2ms | Allocations: 707)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/views/shared/_navbar.html.erb:13
+  Rendered shared/_navbar.html.erb (Duration: 2.7ms | Allocations: 785)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2574)
+Completed 200 OK in 29ms (Views: 11.4ms | ActiveRecord: 3.8ms | Allocations: 5336)
+
+
+Started POST "/quizz/30/2" for 127.0.0.1 at 2022-08-02 22:27:41 +0200
+Processing by QuestionController#evaluate_answer as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "answer"=>{"score"=>"1", "answer"=>"generation-vi"}, "commit"=>"Submit my answer", "id"=>"30", "index"=>"2"}
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 2], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+Redirected to http://localhost:3000/quizz/30/3
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1309)
+
+
+Started GET "/quizz/30/3" for 127.0.0.1 at 2022-08-02 22:27:41 +0200
+Processing by QuestionController#show_question as HTML
+  Parameters: {"id"=>"30", "index"=>"3"}
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 3], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+  [1m[36mCACHE Quiz Load (0.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mCACHE Question Load (0.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 3], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+  [1m[36mCACHE Quiz Load (0.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering question/show_question.html.erb within layouts/application
+  Rendered question/show_question.html.erb within layouts/application (Duration: 3.5ms | Allocations: 701)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/views/shared/_navbar.html.erb:13
+  Rendered shared/_navbar.html.erb (Duration: 3.4ms | Allocations: 785)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 2567)
+Completed 200 OK in 19ms (Views: 13.0ms | ActiveRecord: 0.3ms | Allocations: 5310)
+
+
+Started POST "/quizz/30/3" for 127.0.0.1 at 2022-08-02 22:27:50 +0200
+Processing by QuestionController#evaluate_answer as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "answer"=>{"score"=>"2", "answer"=>"generation-iii"}, "commit"=>"Submit my answer", "id"=>"30", "index"=>"3"}
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 3], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+Redirected to http://localhost:3000/quizz/30/4
+Completed 302 Found in 6ms (ActiveRecord: 0.1ms | Allocations: 1313)
+
+
+Started GET "/quizz/30/4" for 127.0.0.1 at 2022-08-02 22:27:50 +0200
+Processing by QuestionController#show_question as HTML
+  Parameters: {"id"=>"30", "index"=>"4"}
+  [1m[36mQuiz Load (2.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 4], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+  [1m[36mCACHE Quiz Load (0.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mCACHE Question Load (0.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 4], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+  [1m[36mCACHE Quiz Load (0.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering question/show_question.html.erb within layouts/application
+  Rendered question/show_question.html.erb within layouts/application (Duration: 21.9ms | Allocations: 701)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/views/shared/_navbar.html.erb:13
+  Rendered shared/_navbar.html.erb (Duration: 1.9ms | Allocations: 785)
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 2574)
+Completed 200 OK in 49ms (Views: 26.2ms | ActiveRecord: 3.1ms | Allocations: 5298)
+
+
+Started POST "/quizz/30/4" for 127.0.0.1 at 2022-08-02 22:27:54 +0200
+Processing by QuestionController#evaluate_answer as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "answer"=>{"score"=>"2", "answer"=>"generation-iii"}, "commit"=>"Submit my answer", "id"=>"30", "index"=>"4"}
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 4], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+Redirected to http://localhost:3000/quizz/30/5
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1297)
+
+
+Started GET "/quizz/30/5" for 127.0.0.1 at 2022-08-02 22:27:54 +0200
+Processing by QuestionController#show_question as HTML
+  Parameters: {"id"=>"30", "index"=>"5"}
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 5], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+  [1m[36mCACHE Quiz Load (0.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mCACHE Question Load (0.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 5], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+  [1m[36mCACHE Quiz Load (0.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering question/show_question.html.erb within layouts/application
+  Rendered question/show_question.html.erb within layouts/application (Duration: 3.0ms | Allocations: 701)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/views/shared/_navbar.html.erb:13
+  Rendered shared/_navbar.html.erb (Duration: 2.2ms | Allocations: 785)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2567)
+Completed 200 OK in 12ms (Views: 8.7ms | ActiveRecord: 0.3ms | Allocations: 5307)
+
+
+Started POST "/quizz/30/5" for 127.0.0.1 at 2022-08-02 22:27:57 +0200
+Processing by QuestionController#evaluate_answer as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "answer"=>{"score"=>"3", "answer"=>"generation-iii"}, "commit"=>"Submit my answer", "id"=>"30", "index"=>"5"}
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:49:in `current_quiz'
+  [1m[36mQuestion Load (0.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."quizz_id" = ? AND "questions"."index" = ? LIMIT ?[0m  [["quizz_id", 30], ["index", 5], ["LIMIT", 1]]
+  ↳ app/controllers/question_controller.rb:53:in `current_question'
+Redirected to http://localhost:3000/results/30/5
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1350)
+
+
+Started GET "/results/30/5" for 127.0.0.1 at 2022-08-02 22:27:57 +0200
+Processing by ScoreController#grade_user as HTML
+  Parameters: {"id"=>"30", "index"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `forbid_guest'
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/score_controller.rb:34:in `grade_user'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/score_controller.rb:38:in `grade_user'
+  [1m[36mScore Create (0.2ms)[0m  [1m[32mINSERT INTO "scores" ("quizz_id", "user_id", "score", "passed", "grade") VALUES (?, ?, ?, ?, ?)[0m  [["quizz_id", 30], ["user_id", 11], ["score", 4], ["passed", 1], ["grade", 4]]
+  ↳ app/controllers/score_controller.rb:38:in `grade_user'
+  [1m[36mTRANSACTION (156.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/score_controller.rb:38:in `grade_user'
+Redirected to http://localhost:3000/score/user
+Completed 302 Found in 165ms (ActiveRecord: 157.2ms | Allocations: 4689)
+
+
+Started GET "/score/user" for 127.0.0.1 at 2022-08-02 22:27:58 +0200
+Processing by ScoreController#show_user_results as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `forbid_guest'
+  [1m[36mScore Load (0.4ms)[0m  [1m[34mSELECT "scores".* FROM "scores" WHERE "scores"."user_id" = ?[0m  [["user_id", 11]]
+  ↳ app/controllers/score_controller.rb:23:in `map'
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/score_controller.rb:27:in `block in get_user_results'
+  Rendering layout layouts/application.html.erb
+  Rendering score/show_user_results.html.erb within layouts/application
+  Rendered score/show_user_results.html.erb within layouts/application (Duration: 1.6ms | Allocations: 331)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 1571)
+Completed 200 OK in 20ms (Views: 7.7ms | ActiveRecord: 0.9ms | Allocations: 4121)
+
+
