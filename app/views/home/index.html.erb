@@ -1,6 +1,55 @@
-<h1> </h1>
+<style>
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+    }
+    .wrapper > *{
+        transition: background-color .2s ease-in-out, transform .5s ease;
+        justify-self: center;
+        align-self: center;
+        width: 25vw;
+        height: 10vh;
+        text-align: center;
+        vertical-align: center;
+        color: white;
+    }
+    .one {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .two {
+        grid-column: 3;
+        grid-row: 2;
+    }
+    .three {
+        grid-column: 3;
+        grid-row: 3;
+    }
+    .four {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .five {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .six {
+        grid-column: 2;
+        grid-row: 3;
+    }
+    .left{
+        background-color: red;
+    }
+    .right{
+        background-color: blue;
+    }
+    .one:hover ~ .four, .two:hover ~ .five, .three:hover ~ .six{
+        transform: translateX(-20%);
+        background: purple;
+    }
 
-<h2> </h2>
+</style>
 <a href="quizzes/"></a>
 
 <div class="row h-100   p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
@@ -9,6 +58,16 @@
     <p class="lead">You will be able to find quizzes related to different generations from Pokemon</p>
     <div class="d-flex">
       <a href="quizzes/"><button type="button" class="w-auto m-auto btn btn-primary btn-lg px-4 fw-bold">Test out your knowledge here</button></a>
+    </div>
+  </div>
+  <div class="row testing">
+    <div class="wrapper">
+      <div class="one right">Un</div>
+      <div class="two right">Deux</div>
+      <div class="three right">Trois</div>
+      <div class="four left">Quatre</div>
+      <div class="five left">Cinq</div>
+      <div class="six left">Six</div>
     </div>
   </div>
 </div>
